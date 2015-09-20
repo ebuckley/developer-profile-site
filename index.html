@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="eb.cv">
+<head>
+	<title>CV</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<script type="text/javascript" src="/js/index.js"></script>
+</head>
+<body ng-controller="entryPage">
+	<div class="container">
+		<h1 class='title'>{{model.name}}</h1>
+
+		<div class="org-container">
+			<h4 class="section-heading">EXPERIENCE</h4>
+			<div class="org" ng-repeat="org in model.organizations" cv-accordian>
+				<div class="org-titlebar">
+					<h2 class="title">
+						{{org.name}} 
+						<span class='subheading' ng-if="org.employmentStart && org.employmentEnd">{{org.employmentStart}} &nbsp; &#822; {{org.employmentEnd}}</span>
+						<span class='subheading' ng-if="org.employmentStart && !org.employmentEnd">{{org.employmentStart}}</span>
+						<a href="#" cv-accordian-trigger><i class="fa fa-angle-down"></i></a>
+					</h2>
+				</div>
+
+				<div class="section-container-content">
+					<div class="section-content" cv-accordian-content>
+						<div class="contribution-item" ng-repeat="contribution in org.contributions">
+							<h3>{{contribution.name}}</h3>
+							<p ng-if="!!contribution.description">
+								{{contribution.description}}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

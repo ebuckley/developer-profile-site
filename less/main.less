@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,700|Open+Sans+Condensed:300,700);
 
+@pageWidth: 960px;
+
 @serifedFont: 'Merriweather', serif;
 @nonSerifFont: 'Open Sans Condensed';
 @light: #ECF0F1;
@@ -13,6 +15,26 @@ body {
 	color: @content;
 }
 
+footer {
+	width: @pageWidth;
+	margin: 35px auto 0;
+	font-size: 0.5em;
+	font-style: italic;
+	& a:hover,
+	& a:link,
+	& a:active,
+	& a:visited {
+		text-decoration: none;
+		color: @content;
+	}
+}
+
+.org-titlebar,
+.section-content {
+	width: @pageWidth;
+	margin: 0 auto 0;
+}
+
 h1.title {
 	font-family: @serifedFont;
 	font-weight: 300;
@@ -22,9 +44,12 @@ h1.title {
 
 h2.title {
 	font-family: @serifedFont;
+	font-weight: 100;
 }
 
 h4.section-heading {
+	width: @pageWidth;
+	margin: 0 auto 0;
 	color: @highlight;
 	font-family: @nonSerifFont;
 	font-weight: 700;
@@ -49,15 +74,15 @@ h4.section-heading {
 	}
 }
 
-.org-container {
-	max-width: 760px;
-}
-
 .org-titlebar {
 	background-color: #fff
 }
 
+
 .section-container-content {
+	-webkit-box-shadow: inset 0px 10px 33px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 10px 33px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 10px 33px 0px rgba(0,0,0,0.75);
 	overflow: hidden;
 }
 .section-content {
@@ -85,8 +110,8 @@ h4.section-heading {
 //for the content element of an accordian when hidden
 .cv-hidden {
 	animation-name: slide-up;
-	animation-duration: 1s;
-	animation-timing-function: ease-out;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
 }
 //for the content element of an accordian when visible

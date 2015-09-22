@@ -1,0 +1,1420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"employm",
+				"employmentStart"
+			],
+			[
+				"emplo",
+				"employmentStart"
+			],
+			[
+				"timerange",
+				"timerangePreset"
+			],
+			[
+				"timera",
+				"timerangePreset"
+			],
+			[
+				"visionTim",
+				"visionTimestampFactory"
+			],
+			[
+				"getSe",
+				"getUnixTimeInSeconds"
+			],
+			[
+				"undefine",
+				"undefinedListPositionFilters"
+			],
+			[
+				"declar",
+				"declaredOrderCategory"
+			],
+			[
+				"order",
+				"ordering"
+			],
+			[
+				"get",
+				"getFilterItemFromType"
+			],
+			[
+				"categor",
+				"category"
+			],
+			[
+				"gethostb",
+				"gethostbyname"
+			],
+			[
+				"VNG_",
+				"VNG_CONTAINER_NAME"
+			],
+			[
+				"DATA_",
+				"DATA_EXPORT_FILE"
+			],
+			[
+				"minutes",
+				"minutesRemainingUntilExpiration"
+			],
+			[
+				"minute",
+				"minutesRemainingUntilExpiration"
+			],
+			[
+				"featu",
+				"feature_name"
+			],
+			[
+				"licesn",
+				"license_collection_model"
+			],
+			[
+				"resol",
+				"resolutionMap"
+			],
+			[
+				"resolution",
+				"resolutionMap"
+			],
+			[
+				"resolu",
+				"resolutionMap"
+			],
+			[
+				"array_fil",
+				"array_filter"
+			],
+			[
+				"_",
+				"_addHostnameIfPreferenceExists"
+			],
+			[
+				"query",
+				"queryResponse"
+			],
+			[
+				"shouldresol",
+				"shouldResolveIps"
+			],
+			[
+				"reso",
+				"resolveNewHostname"
+			],
+			[
+				"ses",
+				"sessionChanged"
+			],
+			[
+				"should",
+				"shouldResolve"
+			],
+			[
+				"UR",
+				"URL_PREFIX"
+			],
+			[
+				"def",
+				"def	define(…, …)"
+			],
+			[
+				"dropdo",
+				"dropdownItems"
+			],
+			[
+				"drop",
+				"dropdownItems"
+			],
+			[
+				"auto",
+				"auto-completer"
+			],
+			[
+				"JSON_",
+				"json_encode"
+			],
+			[
+				"control",
+				"controller_method"
+			],
+			[
+				"breakdownT",
+				"breakdownTypes"
+			],
+			[
+				"lege",
+				"legendData"
+			],
+			[
+				"le",
+				"legendData"
+			],
+			[
+				"basic",
+				"basicFilter"
+			],
+			[
+				"SYN",
+				"SYN-ACK"
+			],
+			[
+				"error",
+				"errorMessages"
+			],
+			[
+				"TCp",
+				"TcpFlagCompleter"
+			],
+			[
+				"filt",
+				"filteredElements"
+			],
+			[
+				"investi",
+				"investigationPageObject"
+			],
+			[
+				"viau",
+				"visualizations"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 1513,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/main.less",
+			"settings":
+			{
+				"buffer_size": 2565,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Send",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				]
+			],
+			[
+				"Send",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"last_filter": "ss javascr",
+		"selected_items":
+		[
+			[
+				"ss javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ss javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"package isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"ss spec",
+				"Set Syntax: RPM Spec"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ss less",
+				"Set Syntax: LESS"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"ss docker",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"packag instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 539.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ebuckley/code/developer-profile-site"
+	],
+	"file_history":
+	[
+		"/home/ebuckley/code/developer-profile-site/package.json",
+		"/home/ebuckley/code/developer-profile-site/dist/js/index.js",
+		"/home/ebuckley/code/developer-profile-site/karma.conf.js",
+		"/home/ebuckley/code/developer-profile-site/cv.spec.js",
+		"/home/ebuckley/code/developer-profile-site/test.js",
+		"/home/ebuckley/code/developer-profile-site/LICENSE",
+		"/home/ebuckley/code/cv/package.json",
+		"/home/ebuckley/code/cv/gulpfile.js",
+		"/home/ebuckley/code/cv/cv.js",
+		"/home/ebuckley/code/cv/index.html",
+		"/home/ebuckley/code/cv/less/main.less",
+		"/home/ebuckley/code/cv/index.js",
+		"/home/ebuckley/code/downdrop/dropdown.js",
+		"/home/ebuckley/code/downdrop/app.js",
+		"/home/ebuckley/code/ngify/index.html",
+		"/home/ebuckley/code/downdrop/gulpfile.js",
+		"/home/ebuckley/code/ngify/app.js",
+		"/home/ebuckley/code/socket-hack/app.js",
+		"/home/ebuckley/code/visionng/utilities/export_to_rpm.sh",
+		"/home/ebuckley/code/var/index.txt",
+		"/home/ebuckley/code/visionng/Gruntfile.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/tools_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/visualization/tools/index.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/visualization/tools/tool.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/visualization/tools/tool_progress.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/completer/index.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/visualization/filterbar/timerange/range.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/visualization/filterbar/timerange/presets.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/visualization/toollayout/index.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_exception.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_timerange_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_duration_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/services/vision_timerange_factory_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/styles/navigator.less",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_timerange_panel_range.html",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_datasources_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/directives/vision_timerange_panel_range.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/directives/vision_timerange_input_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_navigator.html",
+		"/home/ebuckley/code/visionng/src/app/application/views/visualizations/multitool.php",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/directives/vision_menu.js",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_menu.html",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_chart_conv_send_options.html",
+		"/home/ebuckley/code/visionng/utilities/setup_probe",
+		"/home/ebuckley/code/visionng/deploy/visionng/utility/initial_schema_v3.sql",
+		"/home/ebuckley/code/visionng/src/app/application/models/data_layer/queries_collection_model.php",
+		"/home/ebuckley/code/visionng/src/app/application/migrations/002_initial_schema.php",
+		"/home/ebuckley/code/hack3.js",
+		"/home/ebuckley/code/hack2.js",
+		"/home/ebuckley/code/hack.js",
+		"/home/ebuckley/code/appliance/tree/customer/endace/src/bin/web/php/vision/src/utilities/setup_probe",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_datasources_panel.html",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_errors.html",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/directives/vision_basic_filter_panel.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/services/vision_basic_filter_factory_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_basic_filter_provider.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/services/vision_dummy_basic_filter_factories.js",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_basic_filter_panel.html",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_filter_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_basic_filter_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/services/vision_basic_filter_provider_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_basic_filter_dscp_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_basic_filter_ip_version_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_basic_filter_ip_protocol_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_basic_filter_latency_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_basic_filter_mac_factories.js",
+		"/home/ebuckley/code/visionng/src/app/application/libraries/filter/basic/vision_ip_version_basic_filter.php",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/services/vision_basic_filter_dscp_factory_spec.js",
+		"/home/ebuckley/code/visionng/src/app/application/libraries/filter/basic/vision_ip_protocol_basic_filter.php",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/basicfilter/ip_protocol_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_basic_filter_port_factories.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_basic_filter_tcp_flags_factory.js",
+		"/home/ebuckley/code/visionng/src/app/application/libraries/filter/basic/vision_port_basic_filter.php",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_basic_filter_condition.html",
+		"/home/ebuckley/code/visionng/src/app/application/models/query_model.php",
+		"/home/ebuckley/code/visionng/src/app/application/controllers/data/queries.php",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/directives/vision_chart_tcp_conv.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_tool_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/services/vision_query_factory.js",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_chart_tcp_conv.html",
+		"/home/ebuckley/code/visionng/src/app/assets/views/tools/chart_tool.html",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_legacy_chart_legend_tooltip.html",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/directives/vision_completer_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/controllers/vision_conversations_tool_ctrl.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/directives/vision_detect_content_overflow.js",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_legacy_chart_legend.html",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/vision_detect_content_overflow_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/filters_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/directives/vision_legacy_chart_legend.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/directives/vision_tooltip_if_overflow.js",
+		"/usr/local/bin/vision-ng",
+		"/home/ebuckley/code/visionng/deploy/push_images_to_registry",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/basicfilter/ports_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/basicfilter/client_ip_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/basicfilter/tcp_flags_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/basicfilter/dscp_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/basicfilter/server_ip_spec.js",
+		"/home/ebuckley/code/visionng/src/app/application/tests/watch.sh",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/basicfilter/applications_spec.js",
+		"/home/ebuckley/code/visionng/src/app/application/libraries/Rest_client.php",
+		"/home/ebuckley/code/visionng/src/app/index.php",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/visualization/filterbar/filters/basic/row.js",
+		"/home/ebuckley/code/visionng/src/app/assets/scripts/directives/vision_completer.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/pageobject.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/visionpageobject.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/basicfilter/ipversion_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/visionpage.js",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_basic_filter_condition_latency.html",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/basicfilter/latency_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/visualization/filterbar/datasource/index.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/widgets/visualization/filterbar/filters/basic/index.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec_utils/visualizations.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/login/index.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/visualizations/index.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/legacypage.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages/legacy/upload.js",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_filter_panel.html",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec_utils/probe.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/setup.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/e2e/spec/visualizations/main_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/views/vision_completer.html",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/services/vision_visualization_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/services/vision_conversations_send_filters_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/controllers/visualization_ctrl_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/directives/vision_chart_bandwidth_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/directives/vision_chart_conv_send_options.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/directives/vision_chart_conversations_spec.js",
+		"/home/ebuckley/code/visionng/src/app/assets/test/unit/services/vision_basic_filter_ip_version_spec.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.js",
+			".js",
+			"",
+			"*.html",
+			"*.js",
+			"*.php",
+			"",
+			"/home/ebuckley/code/visionng/src/app/assets/test/e2e/pages",
+			"*.js",
+			"",
+			"*.php",
+			"*.js",
+			"*.php",
+			"",
+			"*.js",
+			"*.less",
+			"*.js",
+			"*.php",
+			"query_service_mapper.php, Latency_query.php, Tcp_converstation_query.php, Tcp_events_query.php, Traffic_breakdown_query.php",
+			"*.php",
+			"query_service_mapper.php, Latency_query.php, Tcp_converstation_query.php, Tcp_events_query.php, Traffic_breakdown_query.php",
+			"*.php",
+			"*.js",
+			"*.php",
+			"*.js",
+			"",
+			"*.js",
+			"*spec.js",
+			"",
+			"*.html",
+			"*.js",
+			"",
+			"\n*.less",
+			"\n",
+			"*.js",
+			"*.php",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"\\",
+			"*.php",
+			"*.html",
+			"*.js",
+			"*.php",
+			"*.js "
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div",
+			".section-container-content",
+			"width",
+			"'Open Sans'",
+			"'Merriweather', serif",
+			"div",
+			"model",
+			"cvData",
+			"app",
+			"share",
+			"e2e/uploads",
+			"test-",
+			"console",
+			"makeToolLegendValueTest",
+			"progressValue",
+			"tool.context.settings.query.progress",
+			".rejected",
+			"0",
+			"filterbarPrepare",
+			"getPresets",
+			"select = function",
+			"makeToolLegendValueTest",
+			"filterbarprepare",
+			"filterBarPrepare",
+			"timerange",
+			"makeToolLegendValueTest",
+			"testChartLegendAvail",
+			"makeToolLoadingTest",
+			"dd",
+			"makeToolFilterFirstTwoTest",
+			"tool in visualization.tools",
+			"addTool",
+			"nav-pan-right-button",
+			"outer",
+			"startOftime",
+			"Duration",
+			"duration",
+			"isTimerange",
+			"raise",
+			"getTimerangeLimits",
+			"datasource",
+			"panForward",
+			"nav-timerange-div",
+			"dropdown",
+			"visualization.filterBar",
+			"anchorRight",
+			"dropdown-append-to-body",
+			"send-conversation",
+			"migration",
+			"Tasks",
+			"v-errors",
+			"options",
+			"ory.create()",
+			"();\n",
+			"();",
+			"ry.create(",
+			"visionBasicFilterFactory.create",
+			"visionBasicFilterFactory",
+			"options",
+			"visionBasicFilterFactory",
+			"console",
+			"breakdowns",
+			"_.basicFilterFactories",
+			"item",
+			"filterTypes",
+			"getFilterItemFromType",
+			"getFilterItemFromName",
+			"availableFilters",
+			"getList",
+			"availableFilters",
+			"basic-filter-select",
+			"category",
+			"dropdown-filter-row",
+			"basic-filter-condition",
+			"toolTypeList",
+			"toolType in",
+			"toolType in Tool List",
+			" [",
+			"',",
+			"setNumberOfResults",
+			"visionQueryFactory.create",
+			"ConversationsNG",
+			"numberOfResults",
+			"number_of_results",
+			"$number_of_results",
+			"◀",
+			"visionQueryFactory",
+			"breakdownType",
+			"VisionQueryFactory",
+			"create",
+			"numberOfResults",
+			"queryFactory",
+			"$VISION-",
+			"92.168.64.136",
+			"92.168.69.129:32769 ",
+			"TCP Flags",
+			"Application",
+			"dscp",
+			"Server IP",
+			"server ip",
+			"Client IP",
+			"copy",
+			"send",
+			"full_url",
+			"https",
+			"should remove items from autocomplete",
+			"when using the",
+			"console.log",
+			"dd",
+			"console.log",
+			",",
+			"dd",
+			"ii",
+			"errormessage",
+			"ii",
+			"dd",
+			"chooseOption",
+			"iit",
+			".completer-dropdown div.darkened",
+			"it",
+			"basic-filter-is-or-is-not",
+			"ii",
+			"Key.ESC",
+			"ESC",
+			"protractor.KEY",
+			"filterNegationElements",
+			"filterRowElement",
+			"all("
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"^\\/data\\/datasources\\/",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1311,
+								1311
+							]
+						],
+						"settings":
+						{
+							"highlight_line": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 74
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1481,
+								1481
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 12
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "less/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1710,
+								1710
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 51
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 371.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dev.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dist/js",
+				"dist/js/index.js"
+			],
+			[
+				"test",
+				"test.js"
+			],
+			[
+				"index",
+				"index.js"
+			],
+			[
+				"karma.",
+				"karma.conf.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				".less",
+				"less/main.less"
+			],
+			[
+				"lessmain",
+				"less/main.less"
+			],
+			[
+				"cv.",
+				"cv.js"
+			],
+			[
+				"ind",
+				"index.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"",
+				"index.html"
+			],
+			[
+				"rpm",
+				"Base/utilities/export_to_rpm.sh"
+			],
+			[
+				"protractor",
+				"Vision/assets/test/config/protractor.bamboo.conf.js"
+			],
+			[
+				"grunt",
+				"Base/Gruntfile.js"
+			],
+			[
+				"oprotracto",
+				"Vision/assets/test/config/protractor.conf.js"
+			],
+			[
+				"presets",
+				"Vision/assets/test/e2e/pages/widgets/visualization/filterbar/timerange/presets.js"
+			],
+			[
+				"tool/index",
+				"Vision/assets/test/e2e/pages/widgets/visualization/tools/index.js"
+			],
+			[
+				"toolindex",
+				"Vision/assets/test/e2e/pages/widgets/visualization/toollayout/index.js"
+			],
+			[
+				"tooltool.js",
+				"Vision/assets/test/e2e/pages/widgets/visualization/tools/tool.js"
+			],
+			[
+				"toolsspec",
+				"Vision/assets/test/e2e/spec/visualizations/tools_spec.js"
+			],
+			[
+				"visiontimerangefactor",
+				"Vision/assets/test/unit/services/vision_timerange_factory_spec.js"
+			],
+			[
+				"visiontimerangespec",
+				"Vision/assets/test/unit/directives/vision_timerange_input_spec.js"
+			],
+			[
+				"visionduration",
+				"Vision/assets/scripts/services/vision_duration_factory.js"
+			],
+			[
+				"visionexceptionjs",
+				"Vision/assets/scripts/services/vision_exception.js"
+			],
+			[
+				"datasourcefa",
+				"Vision/assets/scripts/services/vision_datasources_factory.js"
+			],
+			[
+				"timerangefact",
+				"Vision/assets/scripts/services/vision_timerange_factory.js"
+			],
+			[
+				"timerangerangejs",
+				"Vision/assets/scripts/directives/vision_timerange_panel_range.js"
+			],
+			[
+				"visiontimerangepanelrange",
+				"Vision/assets/scripts/directives/vision_timerange_panel_range.js"
+			],
+			[
+				"navigator",
+				"Vision/assets/views/vision_navigator.html"
+			],
+			[
+				"vision_menu",
+				"Vision/assets/views/vision_menu.html"
+			],
+			[
+				"inti",
+				"Base/deploy/visionng/utility/initial_schema_v3.sql"
+			],
+			[
+				"migrations",
+				"Vision/application/migrations/002_initial_schema.php"
+			],
+			[
+				"queries_model",
+				"Vision/application/models/data_layer/queries_collection_model.php"
+			],
+			[
+				"verrors",
+				"Vision/assets/views/vision_errors.html"
+			],
+			[
+				"visiondatasourcepan",
+				"Vision/assets/views/vision_datasources_panel.html"
+			],
+			[
+				"visionbasicfilterfactoryspec",
+				"Vision/assets/test/unit/services/vision_basic_filter_factory_spec.js"
+			],
+			[
+				"dummybasicfilter",
+				"Vision/assets/test/services/vision_dummy_basic_filter_factories.js"
+			],
+			[
+				"visionbasicfilterprovider",
+				"Vision/assets/test/unit/services/vision_basic_filter_provider_spec.js"
+			],
+			[
+				"visionbasicfilterprovid",
+				"Vision/assets/scripts/services/vision_basic_filter_provider.js"
+			],
+			[
+				"multi",
+				"Vision/application/views/visualizations/multitool.php"
+			],
+			[
+				"visionbasicfilterpanel",
+				"Vision/assets/scripts/directives/vision_basic_filter_panel.js"
+			],
+			[
+				"basicfilterlatenc",
+				"Vision/assets/scripts/services/vision_basic_filter_latency_factory.js"
+			],
+			[
+				"ipversionfac",
+				"Vision/assets/scripts/services/vision_basic_filter_ip_version_factory.js"
+			],
+			[
+				"basicfilteripver",
+				"Vision/assets/scripts/services/vision_basic_filter_ip_version_factory.js"
+			],
+			[
+				"ipversion",
+				"Vision/application/libraries/filter/basic/vision_ip_version_basic_filter.php"
+			],
+			[
+				"basicfilterdscp",
+				"Vision/assets/scripts/services/vision_basic_filter_dscp_factory.js"
+			],
+			[
+				"dscpjs",
+				"Vision/assets/test/unit/services/vision_basic_filter_dscp_factory_spec.js"
+			],
+			[
+				"ipprotocoljs",
+				"Vision/assets/scripts/services/vision_basic_filter_ip_protocol_factory.js"
+			],
+			[
+				"ipportocol",
+				"Vision/application/libraries/filter/basic/vision_ip_protocol_basic_filter.php"
+			],
+			[
+				"ipproto",
+				"Vision/assets/test/e2e/spec/visualizations/basicfilter/ip_protocol_spec.js"
+			],
+			[
+				"basicpo",
+				"Vision/assets/scripts/services/vision_basic_filter_port_factories.js"
+			],
+			[
+				"portfilter",
+				"Vision/application/libraries/filter/basic/vision_port_basic_filter.php"
+			],
+			[
+				"visionbasicfiltertcpflag",
+				"Vision/assets/scripts/services/vision_basic_filter_tcp_flags_factory.js"
+			],
+			[
+				"chartcpconv",
+				"Vision/assets/scripts/directives/vision_chart_tcp_conv.js"
+			],
+			[
+				"queries_collec",
+				"Vision/application/models/data_layer/queries_collection_model.php"
+			],
+			[
+				"query_model",
+				"Vision/application/models/query_model.php"
+			],
+			[
+				"controllerqueri",
+				"Vision/application/controllers/data/queries.php"
+			],
+			[
+				"queryfact",
+				"Vision/assets/scripts/services/vision_query_factory.js"
+			],
+			[
+				"vcharttcpconv",
+				"Vision/assets/scripts/directives/vision_chart_tcp_conv.js"
+			],
+			[
+				"vcharttcpcon",
+				"Vision/assets/views/vision_chart_tcp_conv.html"
+			],
+			[
+				"chart_tool",
+				"Vision/assets/views/tools/chart_tool.html"
+			],
+			[
+				"visionconversationstoolct",
+				"Vision/assets/scripts/controllers/vision_conversations_tool_ctrl.js"
+			],
+			[
+				"toolfactory",
+				"Vision/assets/scripts/services/vision_tool_factory.js"
+			],
+			[
+				"unitvisionspec.js",
+				"Vision/assets/test/unit/directives/vision_completer_spec.js"
+			],
+			[
+				"detectcont",
+				"Vision/assets/scripts/directives/vision_detect_content_overflow.js"
+			],
+			[
+				"spec.js",
+				"Vision/assets/test/unit/filters_spec.js"
+			],
+			[
+				"visionlegacychartlege",
+				"Vision/assets/views/vision_legacy_chart_legend_tooltip.html"
+			],
+			[
+				"chartlegend",
+				"Vision/assets/scripts/directives/vision_legacy_chart_legend.js"
+			],
+			[
+				"legend",
+				"Vision/assets/views/vision_legacy_chart_legend.html"
+			],
+			[
+				".sh",
+				"Vision/application/tests/watch.sh"
+			],
+			[
+				"dscpspec",
+				"Vision/assets/test/e2e/spec/visualizations/basicfilter/dscp_spec.js"
+			],
+			[
+				"completerindex",
+				"Vision/assets/test/e2e/pages/widgets/completer/index.js"
+			],
+			[
+				"applications_spe",
+				"Vision/assets/test/e2e/spec/visualizations/basicfilter/applications_spec.js"
+			],
+			[
+				"ports_spec",
+				"Vision/assets/test/e2e/spec/visualizations/basicfilter/ports_spec.js"
+			],
+			[
+				"gurnt",
+				"Base/Gruntfile.js"
+			],
+			[
+				"rest_cl",
+				"Vision/application/libraries/Rest_client.php"
+			],
+			[
+				"index.",
+				"Vision/index.php"
+			],
+			[
+				"e2ecompleter",
+				"Vision/assets/test/e2e/pages/widgets/completer/index.js"
+			],
+			[
+				"visioncompleter",
+				"Vision/assets/scripts/directives/vision_completer.js"
+			],
+			[
+				"pageobject",
+				"Vision/assets/test/e2e/pages/pageobject.js"
+			],
+			[
+				"visionpageobjec",
+				"Vision/assets/test/e2e/pages/visionpageobject.js"
+			],
+			[
+				"visionpage",
+				"Vision/assets/test/e2e/pages/visionpage.js"
+			],
+			[
+				"e2eipspec",
+				"Vision/assets/test/e2e/spec/visualizations/basicfilter/ports_spec.js"
+			],
+			[
+				"visionbasicfilterlatency",
+				"Vision/assets/views/vision_basic_filter_condition_latency.html"
+			],
+			[
+				"latencyspec",
+				"Vision/assets/test/e2e/spec/visualizations/basicfilter/latency_spec.js"
+			],
+			[
+				"row",
+				"Vision/assets/test/e2e/pages/widgets/visualization/filterbar/filters/basic/row.js"
+			],
+			[
+				"visionpageobject",
+				"Vision/assets/test/e2e/pages/visionpageobject.js"
+			],
+			[
+				"spec_utilsvisua",
+				"Vision/assets/test/e2e/spec_utils/visualizations.js"
+			],
+			[
+				"e2epagelogin",
+				"Vision/assets/test/e2e/pages/login/index.js"
+			],
+			[
+				"pageobej",
+				"Vision/assets/test/e2e/pages/pageobject.js"
+			],
+			[
+				"vbasicfiltercon",
+				"Vision/assets/views/vision_basic_filter_condition.html"
+			],
+			[
+				"e2epagebasic",
+				"Vision/assets/test/e2e/pages/widgets/visualization/filterbar/filters/basic/index.js"
+			],
+			[
+				"pageob",
+				"Vision/assets/test/e2e/pages/pageobject.js"
+			],
+			[
+				"basicfitlerpanel",
+				"Vision/assets/views/vision_basic_filter_panel.html"
+			],
+			[
+				"filterpanel",
+				"Vision/assets/views/vision_filter_panel.html"
+			],
+			[
+				"specutilsvisualizatio",
+				"Vision/assets/test/e2e/spec_utils/visualizations.js"
+			],
+			[
+				"specutils",
+				"Vision/assets/test/e2e/spec_utils/probe.js"
+			],
+			[
+				"specsetup",
+				"Vision/assets/test/e2e/spec/setup.js"
+			],
+			[
+				"upload.js",
+				"Vision/assets/test/e2e/pages/legacy/upload.js"
+			],
+			[
+				"spec_utilsvisu",
+				"Vision/assets/test/e2e/spec_utils/visualizations.js"
+			],
+			[
+				"gruntfile",
+				"Base/Gruntfile.js"
+			],
+			[
+				"legacypage.js",
+				"Vision/assets/test/e2e/pages/legacypage.js"
+			],
+			[
+				"visualizations.js",
+				"Vision/assets/test/e2e/spec_utils/visualizations.js"
+			],
+			[
+				"visioncomplter",
+				"Vision/assets/views/vision_completer.html"
+			],
+			[
+				"main_s",
+				"Vision/assets/test/e2e/spec/visualizations/main_spec.js"
+			],
+			[
+				"timerangeinputspec",
+				"Vision/assets/test/unit/directives/vision_timerange_input_spec.js"
+			],
+			[
+				"sendoptionsspec",
+				"Vision/assets/test/unit/services/vision_send_options_spec.js"
+			],
+			[
+				"probeconnection",
+				"Vision/assets/test/unit/services/probe_connection_factory_spec.js"
+			],
+			[
+				"timestampfactory",
+				"Vision/assets/test/unit/services/vision_timestamp_factory_spec.js"
+			],
+			[
+				"vtransportspec",
+				"Vision/assets/test/unit/services/vision_transport_spec.js"
+			],
+			[
+				"setup",
+				"Base/utilities/setup_probe"
+			],
+			[
+				"visiontrans",
+				"Vision/assets/scripts/services/vision_transport.js"
+			],
+			[
+				"nginx",
+				"Base/deploy/visionng/config/nginx.conf"
+			],
+			[
+				"mydatac",
+				"Vision/application/core/MY_Data_Controller.php"
+			],
+			[
+				"queries",
+				"Vision/application/controllers/data/queries.php"
+			],
+			[
+				"visualizationmodel",
+				"Vision/application/models/visualization_model.php"
+			],
+			[
+				"endace",
+				"Vision/assets/styles/endace.less"
+			],
+			[
+				"timepreset",
+				"Vision/assets/views/vision_timepreset_menu.html"
+			],
+			[
+				"timepresetmenu",
+				"Vision/assets/views/vision_timepreset_menu.html"
+			],
+			[
+				"uibootstraptpls",
+				"Base/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"
+			],
+			[
+				"app",
+				"Vision/assets/scripts/app.js"
+			],
+			[
+				"bower.",
+				"Base/bower.json"
+			],
+			[
+				"dropdown",
+				"Base/bower_components/bootstrap/js/dropdown.js"
+			],
+			[
+				"bower.json",
+				"Base/bower.json"
+			],
+			[
+				"visiontransport",
+				"Vision/assets/scripts/services/vision_transport.js"
+			],
+			[
+				"post_",
+				"Base/utilities/rpm_include/post_install.sh"
+			],
+			[
+				"viewlanding",
+				"Vision/application/views/landingpage.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/code/appliance/tree/customer/endace/src/bin/web/php/vision/src/appliance.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "huehueheuheu",
+		"_vintageous_last_buffer_search_command": "vi_octothorp",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/home/ebuckley/code/developer-profile-site"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 498.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

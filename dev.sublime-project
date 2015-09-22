@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"node_modules"
+			],
+			"path": "."
+		}
+	],
+	"build_systems": [
+		{
+			"name": "Send",
+			"shell_cmd": "gulp build"
+		}
+	]
+
+}

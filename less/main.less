@@ -13,6 +13,7 @@
 body {
 	font-family: @serifedFont;
 	color: @content;
+	margin: 0 0 0 0;
 }
 
 footer {
@@ -36,6 +37,8 @@ footer {
 }
 
 h1.title {
+	width: @pageWidth;
+	margin: 0 auto 0;
 	font-family: @serifedFont;
 	font-weight: 300;
 	font-size: 3em;
@@ -86,7 +89,12 @@ h4.section-heading {
 	overflow: hidden;
 }
 .section-content {
+	padding: 20px 0 20px;
 	z-index: -1;
+}
+
+.cv-trigger {
+	margin-left: 10px;
 }
 
 

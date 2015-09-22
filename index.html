@@ -18,11 +18,12 @@
 						{{org.name}} 
 						<span class='subheading' ng-if="org.employmentStart && org.employmentEnd">{{org.employmentStart}} &nbsp; &#822; {{org.employmentEnd}}</span>
 						<span class='subheading' ng-if="org.employmentStart && !org.employmentEnd">{{org.employmentStart}}</span>
-						<a href="#" cv-accordian-trigger><i class="fa fa-angle-down"></i></a>
+						<a href="#" cv-accordian-trigger><i class="fa fa-angle-down cv-trigger"></i></a>
 					</h2>
 				</div>
 
-				<div class="section-container-content">
+				<div class="section-container-content" >
+					<div class="section-content" cv-accordian-content>
 						<div class="contribution-item" ng-repeat="contribution in org.contributions">
 							<h3>{{contribution.name}}</h3>
 							<p ng-if="!!contribution.description">

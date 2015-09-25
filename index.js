@@ -17,7 +17,7 @@ angular.module('eb.cv', [cvModule])
 
 			this.init = function  () {
 				that.$triggerEl.removeClass('cv-opened');
-				that.$triggerEl.removeClass('cv-closed');
+				that.$triggerEl.addClass('cv-closed');
 				that.$contentEl.addClass('cv-hidden');
 			};
 

@@ -16,3 +16,11 @@ cd dist && python3 -m http.server
 #Implementing your own CV
 
 Take a look at cv.js, extend this with your own projects, organization and experience. The only template here is index.html, extend it as neccesary. Styles are under the less directory they will be compiled into `dist/css`. All of the JS assets will be concatted, uglified based on the require dependency graph from `index.js` as the root file.
+
+#Tests
+Yea, they exist, checkout karma.conf.js if you want to add a more generic glob for having more test files, currently coz the scope of this is so small I have decided to just implement everything in tests.js.
+
+```
+#From any sub directory  of the project run the following
+$ npm test
+```
